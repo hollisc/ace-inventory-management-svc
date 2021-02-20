@@ -1,3 +1,3 @@
 # ace-inventory-management-svc-solution
 
- Tekton pipeline for App Connect Enterprise deployments
+ Tekton pipeline for CP4I - App Connect Enterprise deployments.
