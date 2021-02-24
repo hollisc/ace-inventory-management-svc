@@ -1,4 +1,3 @@
 # ace-inventory-management-svc-solution
 
-
- Tekton pipeline for CP4I - App Connect Enterprise deployments.
+ IBM App Connect Enterprise Toolkit (REST API workflow) Workspace for Tekton based ACE deployments. 
