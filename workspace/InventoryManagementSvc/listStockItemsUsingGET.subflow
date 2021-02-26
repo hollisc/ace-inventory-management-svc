@@ -12,11 +12,11 @@
       <nodes xmi:type="eflow:FCMSink" xmi:id="OutTerminal.Output_1" location="425,25">
         <translation xmi:type="utility:TranslatableString" key="Output" bundleName="listStockItemsUsingGET" pluginId="InventoryManagementSvc"/>
       </nodes>
-      <nodes xmi:type="ComIbmRESTRequest.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="233,187" definitionType="swagger_20" definitionFile="inventory-management-svc-solution-swagger-doc-v2-http.json" operationName="listStockItemsUsingGET" acceptCompressedResponses="true">
+      <nodes xmi:type="ComIbmRESTRequest.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="198,27" definitionType="swagger_20" definitionFile="ace-inventory-management-svc.json" operationName="listStockItemsUsingGET" acceptCompressedResponses="true">
         <translation xmi:type="utility:ConstantString" string="listStockItemsUsingGET"/>
       </nodes>
-      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_1" sourceNode="InTerminal.Input_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
-      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="OutTerminal.Output_1" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_2" sourceNode="InTerminal.Input_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="OutTerminal.Output_1" sourceNode="FCMComposite_1_2" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
     </composition>
     <propertyOrganizer/>
     <stickyBoard/>

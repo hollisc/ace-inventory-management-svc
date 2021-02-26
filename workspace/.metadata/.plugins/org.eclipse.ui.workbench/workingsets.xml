@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
-<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613674903735_1" label="[InventoryManagementSvc]" name="[InventoryManagementSvc]">
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1614371153403_0" label="[InventoryManagementSvc]" name="[InventoryManagementSvc]">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/InventoryManagementSvc" type="4"/>
 </workingSet>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613674743183_0" label="Window Working Set" name="Aggregate for window 1613674743183"/>
 </workingSetManager>

@@ -1,12 +1,12 @@
-!SESSION 2021-02-18 13:58:48.552 -----------------------------------------------
+!SESSION 2021-02-26 14:50:22.748 -----------------------------------------------
 eclipse.buildId=4.4.2.M20150204-1700
 java.version=1.8.0_221
 java.vendor=Oracle Corporation
 BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
-Framework arguments:  -product com.ibm.etools.msgbroker.tooling.ide -showlocation -product com.ibm.etools.msgbroker.tooling.ide -showlocation -product com.ibm.etools.msgbroker.tooling.ide -showlocation -product com.ibm.etools.msgbroker.tooling.ide -showlocation -product com.ibm.etools.msgbroker.tooling.ide -showlocation
-Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.ibm.etools.msgbroker.tooling.ide -showlocation -product com.ibm.etools.msgbroker.tooling.ide -showlocation -product com.ibm.etools.msgbroker.tooling.ide -showlocation -product com.ibm.etools.msgbroker.tooling.ide -showlocation -data /Users/hollisc/Documents/DevOps-GSE/Client/SBSA_Oct2020/cntk-repo/ace-inventory-management-svc-solution-v2-http -product com.ibm.etools.msgbroker.tooling.ide -showlocation
+Framework arguments:  -product com.ibm.etools.msgbroker.tooling.ide -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.ibm.etools.msgbroker.tooling.ide -showlocation
 
-!ENTRY com.ibm.etools.mft.pattern.support.java 4 0 2021-02-18 13:58:50.264
+!ENTRY com.ibm.etools.mft.pattern.support.java 4 0 2021-02-26 14:50:24.699
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.ibm.etools.mft.pattern.support.java [316]
@@ -27,21 +27,21 @@ org.osgi.framework.BundleException: Could not resolve module: com.ibm.etools.mft
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
-!ENTRY org.eclipse.emf.ecore 2 0 2021-02-18 13:58:52.613
+!ENTRY org.eclipse.emf.ecore 2 0 2021-02-26 14:55:28.639
 !MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
 
-!ENTRY org.eclipse.core.net 1 0 2021-02-18 13:58:56.541
+!ENTRY org.eclipse.core.net 1 0 2021-02-26 14:55:32.198
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
 
-!ENTRY org.eclipse.jface 2 0 2021-02-18 13:58:57.763
+!ENTRY org.eclipse.jface 2 0 2021-02-26 14:55:33.712
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-18 13:58:57.763
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-26 14:55:33.712
 !MESSAGE A conflict occurred for ALT+COMMAND+C:
 Binding(ALT+COMMAND+C,
 	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copy Result,
 		,
 		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bc80978,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@596343e7,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -49,22 +49,22 @@ Binding(ALT+COMMAND+C,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
 		Change method signature includes parameter names and parameter order,
 		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c8746a0,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b25ce5e,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,cocoa,system)
 
-!ENTRY org.eclipse.ui 2 2 2021-02-18 13:58:59.334
-!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
-
-!ENTRY org.eclipse.ui 2 2 2021-02-18 13:58:59.335
-!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
-
-!ENTRY org.eclipse.ui 2 2 2021-02-18 13:58:59.336
-!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
-
-!ENTRY com.ibm.mq.runtime 4 0 2021-02-18 13:59:02.681
+!ENTRY com.ibm.mq.runtime 4 0 2021-02-26 14:55:34.971
 !MESSAGE WebSphere MQ install location is not found.
 
-!ENTRY com.ibm.etools.mft.uri 0 0 2021-02-18 14:01:43.783
+!ENTRY org.eclipse.ui 2 2 2021-02-26 14:55:37.300
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2021-02-26 14:55:37.301
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2021-02-26 14:55:37.301
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2021-02-26 15:25:53.482
 !MESSAGE 
